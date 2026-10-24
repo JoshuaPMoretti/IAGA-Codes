@@ -1,0 +1,17 @@
+# Receber valor do produto
+produto = float(input())
+
+# Receber valor do desconto fixo de 10%
+desconto = 10
+
+# cálculo do valor do desconto
+valor_desconto = produto * (desconto / 100)
+
+# Calcular o novo salário com aumento
+valor_final = produto - valor_desconto
+
+# Exibir o resultado
+print(f"Valor do Produto  = R$ {produto:.2f}")
+print(f"Valor do Desconto = R$ {valor_desconto:.2f}")
+print(f"Valor Final       = R$ {valor_final:.2f}")  
+

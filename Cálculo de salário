@@ -1,0 +1,16 @@
+# Receber valor do salário
+salario = float(input())
+
+# Receber valor do reajuste
+reajuste = float(input())
+
+# cálculo do valor do reajuste
+valor_reajuste = salario * (reajuste / 100)
+
+# Calcular o novo salário com aumento
+novo_salario = salario * (1 + reajuste / 100)
+
+# Exibir o resultado
+print(f"Salario atual....: R$ {salario:.2f}")
+print(f"Valor do reajuste: R$ {valor_reajuste:.2f} ({reajuste:.2f}%)")
+print(f"Salario novo.....: R$ {novo_salario:.2f}")  

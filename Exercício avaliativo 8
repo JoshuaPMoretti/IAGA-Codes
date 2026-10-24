@@ -1,0 +1,26 @@
+x = []
+
+for i in range(7):
+    valor = int(input())
+    x.append(valor)
+
+for i in range(7):
+    print(f"x[{i}] = {x[i]}")
+
+menor = x[0]
+maior = x[0]
+pos_menor = 0
+pos_maior = 0
+
+for i in range(7):
+    if x[i] < menor:
+        menor = x[i]
+        pos_menor = i
+
+    if x[i] > maior:
+        maior = x[i]
+        pos_maior = i
+
+
+print(f"\nMenor elemento, x[{pos_menor}] = {menor}")
+print(f"Maior elemento, x[{pos_maior}] = {maior}")

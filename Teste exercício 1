@@ -1,0 +1,10 @@
+# Leitura dos dois números inteiros
+num1 = int(input())
+num2 = int(input())
+
+# Cálculo da média aritmética simples
+media = (num1 + num2) / 2
+
+# Exibição do resultado formatado com uma casa decimal
+print(f"Media = {media:.1f}           ") 
+

@@ -1,0 +1,12 @@
+# Receber o número
+num1 = int(input())
+
+# cálculo do antecessor e sucessor
+antecessor = num1 - 1
+sucessor = num1 + 1
+
+# Exibição do resultado
+
+print(f"antecessor: {antecessor}           ")
+print(f"numero....: {num1}           ")
+print(f"sucessor..: {sucessor}           ")

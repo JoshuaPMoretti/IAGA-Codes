@@ -1,0 +1,12 @@
+# leitura do lado do quadrado
+num1 = float(input())
+
+# cálculo da área do quadrado
+area = num1**2
+perimetro = 4 * num1
+diagonal = (2 * area)**0.5
+
+# Exibição do resultado
+print(f"Area.....: {area:.2f}           ")
+print(f"Perimetro: {perimetro:.2f}           ")
+print(f"Diagonal.: {diagonal:.2f}           ")

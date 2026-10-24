@@ -1,0 +1,19 @@
+# Receber valor do produto
+produto = float(input())
+
+# Receber valor do desconto fixo de 10% se for até R$5000,00, se for acima, o desconto será de 15%
+if produto < 5000:
+    desconto = 10
+else:
+    desconto = 15
+
+# cálculo do valor do desconto
+valor_desconto = produto * (desconto / 100)
+
+# Calcular o valor do produto com desconto
+valor_final = produto - valor_desconto
+
+# Exibir o resultado
+print(f"Valor do Produto        = R$ {produto:.2f}")
+print(f"Valor do Desconto ({desconto}%) = R$ {valor_desconto:.2f}")
+print(f"Valor Final             = R$ {valor_final:.2f}")  

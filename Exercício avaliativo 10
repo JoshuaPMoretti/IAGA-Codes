@@ -1,0 +1,19 @@
+n = int(input())
+
+a = []
+b = []
+
+for i in range(n):
+    valor = int(input())
+    a.append(valor)
+
+for i in range(n):
+    if a[i] < 0:
+        b.append(-1)
+    elif a[i] == 0:
+        b.append(0)
+    else:
+        b.append(1)
+
+print(a)
+print(b)

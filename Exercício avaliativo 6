@@ -1,0 +1,11 @@
+texto = input()
+
+if texto.endswith("."):
+    texto = texto[:-1]
+    
+palavras = texto.split(" ")
+
+print(f"Existem {len(palavras)} palavras, são elas:\n")
+
+for i in range(len(palavras)):
+    print(f"{i + 1}a. palavra = {palavras[i]}")
